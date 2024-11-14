@@ -25,8 +25,8 @@ export default function AnalyticsDashboard({ data }: AnalyticsDashboardProps) {
                 <TabsContent value="growth">
                     <Card className="p-4">
                         <h2 className="text-lg font-semibold mb-4">
-                            Account Growth Metrics ( Profile Visits to New
-                            followers ratio)
+                            Account Growth Metrics ( New followers to Profile
+                            visits ratio)
                         </h2>
                         <GrowthChart data={data} />
                     </Card>
